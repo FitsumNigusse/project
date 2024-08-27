@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beki website</title>
+    <h1> <center><mark>Hello!!</mark></center>
+        wellcom to beki website.com</h1>
+        <h1>order liste</h1>
+    <ol>
+        <li>iteme one</li>
+        <li>iteme two</li>
+        <li>iteme thrre</li>
+        <li>iteme four</li>
+        <li>iteme five</li>
+    </ol>
+    <h2> unorder liste</h2>
+    <ul>
+        <li>item one</li>
+        <li>item two</li>
+        <li>item thrre</li>
+        <li>item four</li>
+        <li>item five</li>
+    </ul>
+    <h3>order list with un order liste</h3>
+    <ul>
+        <ol type="a">
+     <li>item one</li>
+     <li>item two</li>
+     <li>item thrre</li>
+     <li>item four</li>
+     <li>item five</li>
+    </ol>
+    </ul>
+    <h1>descrption liste</h1>
+    <ul>
+        <ol type="A">
+    <dt><li>coffee</li></dt>
+    </ol>
+    <dd>black hot drink</dd>
+    <ol type="A">
+    <dt><li>milk</li></dt>
+    <dd>white cold drink</dd>
+    </ul>
+    <h1>Table</h1>
+    <table>
+    <thead>
+        <tr align="left" bgcolor="yellow">
+            <th width="400">Name</th>
+            <th width="300">email</th>
+            <th width="200">phone</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Fitsum Nigusse</td>
+            <td>FitNigu@gmail.com</td>
+            <td>0974657345</td>
+        </tr>
+        <tr>
+            <td>Meaz Nigusse</td>
+            <td>MeaNigu@gmail.com</td>
+            <td>0912457447</td>
+        </tr>
+        <tr>
+            <td>yabe Nigusse</td>
+            <td>yabNigu@gmail.com</td>
+            <td>0987314360</td>
+        </tr>
+    </tbody>
+</table>
+    </head>
+    <title>form and input</title>
+    <h1>Registration Form </h1> 
+</head>
+<body>
+<form action="post"action="index.php">
+<fieldset>
+    <legend>account</legend>
+    <label>Name</label><br>
+    <input type="text" name="name" required>
+    <br><br>
+    <label>emil</label required><br>
+    <input type="text" name="emil">
+    <br><br>
+    <label> password</label required><br>
+    <input type="password" name="password"> 
+</fieldset>
+    <br><br>
+    <fieldset>
+    <legend>user info</legend>
+    <label>location</label><br>
+    <select name="location">
+        <option value="Aadis Abeba" selacted>AA</option>
+        <option value="shashemna">SH</option>
+        <option value="Baherdar">BH</option> 
+    </select>
+    <br><br>
+    <label>Gender</label><br>
+    <input type="radio" name="gender" value="male">Male
+    <input type="radio" name="gender" value="female">female
+    <br><br>
+    <label>Interast</label><br>
+    <input type="checkbox" name="Interast" value="movies">movies
+    <input type="checkbox" name="Interast" value="music">music
+    <input type="checkbox" name="Interast" value="sports">sports
+    <input type="checkbox" name="Interast" value="art">art
+    <br><br>
+</fieldset>
+    
+    <input type="submit" value="submit">
+</form>
+<script>
+    console.log (document.body.addEventListener('click', function () {
+     const myParent = document.getElementsByTagName("h1")[0]; 
+     const myImage = document.createElement("img");
+     myImage.src = 'https://thecatapi.com/api/images/get?format=src&type=gif';
+     myParent.appendChild(myImage);
+     myImage.style.marginLeft = "160px";
+}));
+let dinner = "tacos";
+const dinner =  "tamales";
+console.log(dinner);
+    </script>
+
+</body>
+</html>
